@@ -8,5 +8,6 @@ setuptools.setup(
     description="Test",
     url="https://github.com/HailinPan/rtd",
     packages=setuptools.find_packages(),
+    install_requires=["numpy==1.20.0"],
     python_requires='>=3.8',
 )
